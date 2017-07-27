@@ -47,10 +47,11 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
+    <Reference Include="System.Web" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ItemLanguageResolver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StripLanguage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\zzz\Sitecore.Support.96648.config" />
